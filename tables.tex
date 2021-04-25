@@ -1,0 +1,77 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Faktorenanalyse Q30a-Q30f}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+\section{Factor loadings (pattern matrix) and unique variances}
+\centering
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{1}{ccc}}
+  \hline\hline
+ ID & Country Code & XX& Count of Observations \\ 
+  \hline
+1 & V149 & Claiming state benefits which you are not entitled to \\ 
+  2 & V150 & Cheating on tax if you have the chance \\ 
+  3 & AUS & Taking the drugs marijuana or hashish \\ 
+  4 & BGD & Someone accepting a bribe in the course of their duties \\ 
+  5 & BOL & Homosexuality \\ 
+  6 & BRA & Abortion \\ 
+  7 & CHL & Divorce \\ 
+  8 & CHN & Euthanasia \\ 
+  9 & COL & Suicide \\ 
+  10 & CYP & Having casual sex \\ 
+  11 & DEU & Avoiding a fare on public transport\\ 
+  12 & ECU & Prostitution \\ 
+  13 & ETH & Political violence \\ 
+  14 & GRC & Death penalty \\ 
+  \hline\hline
+\end{tabular}
+}
+\bigskip
+\bigskip
+\bigskip
+
+\section{Rotated factors loadings (pattern matrix) and unique variances}
+\centering
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{1}{ccc}}
+\hline\hline
+            &    Factor 1&    Factor 2&  Uniqueness\\
+\hline
+q30a        &    .6159174&    .1848204&    .5864872\\
+q30b        &    .5760492&    .2133746&    .6226386\\
+q30c        &    .4019481&    .4569902&    .6295977\\
+q30d        &    .4518697&    .2592333&    .7286119\\
+q30e        &    .3083852&    .5051477&    .6497244\\
+q30f        &    .1196099&     .439956&    .7921322\\
+\hline\hline
+\end{tabular}
+}
+
+\end{document}
+
+ \begin{table}[htb]
+  \centering
+    \begin{threeparttable}
+      \caption{Results Cluster Analysis}
+       \centering  %% use this instead of \begin{center}
+        \begin{tabular}{l c c c c c}
+          \toprule
+          {Algorithm} & {Optimal number of clusters} & {Cluster 1} & {Cluster 2} & {Cluster 3}& {Cluster 4} \\\toprule[1pt]
+          K-Means & 4 &13 &21 &23& 15\\
+          Hierarchical & 4 &13 &21 &23& 15\\
+          \bottomrule
+        \end{tabular}
+        \begin{tablenotes}
+          %\footnotesize   %% If you want them smaller like foot notes
+          \item[a] Note: To determine the right amount of clusters, I relied on XX and XX methods for K-Means algorithm and XX and XX for Hierarchical algoritms
+        \end{tablenotes}
+    \end{threeparttable}
+  \end{table}
