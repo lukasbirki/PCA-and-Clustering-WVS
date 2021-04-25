@@ -1,2 +1,8 @@
 # PCA-and-Clustering-WVS
-R Script for explorative data analysis, PCA and Clustering
+Coursework for Warwick Advanced Quantitative Reserach Class
+
+Repository contains
+- Tex Data
+- R-Markdown Script
+- All relevant Figures and Tables
+- Bibtex References List (exported from Citavi)
